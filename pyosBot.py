@@ -27,5 +27,4 @@ while True:
       data = data.split ( '!command' )
       data = data[1].split ('\r\n')
       command_msg = os.system(data[0])
-      irc.send ( 'PRIVMSG #batibot :%s \r\n' % command_msg) 
    print data
